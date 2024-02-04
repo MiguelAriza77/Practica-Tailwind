@@ -544,7 +544,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red-700 {
+.h-64 {
+  height: 16rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.bg-terciary {
   --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  background-color: rgb(97 174 201 / var(--tw-bg-opacity));
+}
+
+.font-Montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
