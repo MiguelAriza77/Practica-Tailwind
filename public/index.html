@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Platzi Travel</title>
 </head>
-<body>
+<body class="font-Montserrat">
     <nav>
 
     </nav>
@@ -19,8 +19,8 @@
         <div id="home">
             <div class="w-full h-3/4">
                 <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
-                    <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" name="" id="">
-                    <button class="w-36 rounded-full bg-white text-xl text-primary shadow-sm font-semibold p-4">Explorar</button>
+                    <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Francisco" type="search" name="" id="">
+                    <button class="w-40 rounded-full bg-white text-lg text-primary shadow-sm font-semibold p-4 transition transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">Explorar</button>
                 </div>
                 <div class="w-full h-full ">
                     <img src="./img/sanFrancisco.jpg" alt="">
@@ -28,14 +28,53 @@
                 
             </div>
         </div>
-        <div class="p-20" id="recomendados">
-            <div class="card">
-                <div class="img-card bg-norway"></div>
-                <div class="content-card">
-                    <p class="text-white text-bold text-lg mx-4 py-3">Norway</p>
-                    <p class="text-white text-md mx-4">Paisajes Hermosos</p>
+        <div class="p-6" id="recomendados">
+            <p class="text-primary text-3xl font-semibold">Recomendados</p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+                <div class="card">
+                    <div class="img-card bg-norway"></div>
+                    <div class="content-card bg-secondary">
+                        <p class="text-white text-bold text-lg mx-4 py-3">Norway</p>
+                        <p class="text-white text-md mx-4">Paisajes Hermosos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card bg-newYork"></div>
+                    <div class="content-card bg-white">
+                        <p class="text-terciary text-bold text-lg mx-4 py-3">New York</p>
+                        <p class="text-terciary text-md mx-4">La gran manzana</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card bg-switzerland"></div>
+                    <div class="content-card bg-secondary">
+                        <p class="text-white text-bold text-lg mx-4 py-3">Switzerland</p>
+                        <p class="text-white text-md mx-4">Paisajes Hermosos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card bg-newYork"></div>
+                    <div class="content-card bg-white">
+                        <p class="text-terciary text-bold text-lg mx-4 py-3">New York</p>
+                        <p class="text-terciary text-md mx-4">La gran manzana</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card bg-norway"></div>
+                    <div class="content-card bg-secondary">
+                        <p class="text-white text-bold text-lg mx-4 py-3">Norway</p>
+                        <p class="text-white text-md mx-4">Paisajes Hermosos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card bg-newYork"></div>
+                    <div class="content-card bg-white">
+                        <p class="text-terciary text-bold text-lg mx-4 py-3">New York</p>
+                        <p class="text-terciary text-md mx-4">La gran manzana</p>
+                    </div>
                 </div>
             </div>
+            
         </div>
         <div id="rentas_destacadas"></div>
      </section>
