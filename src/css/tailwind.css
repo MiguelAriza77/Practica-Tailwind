@@ -11,3 +11,6 @@
 .content-card {
     @apply w-full h-2/5 rounded-b-lg
 }
+.card-title {
+    @apply text-3xl px-8 pt-8 pb-3 font-semibold text-white
+}
